@@ -6,33 +6,12 @@ This project is a tourism blog application where each user can add a blog and ac
 
 [![Watch the video](assets/interfaces/home.jpg)](assets/interfaces/Mobile%20App%20Presentation%20_%20Video%20Template.mp4)
 
-**Frameworks used:**
-
-- <span> Backend: Spring Boot 3.2.4 <img alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" /> , Maven <img alt="Maven" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" />, Java 17 <img alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></san>
-- <span> Frontend: Angular 16.1.2 <img alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /></span>
-
-<span> **Server:** Apache web server <img alt="Apache" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" /></span>
-
-<span> **Database:** PostgreSQL <img alt="Apache" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /></span>
-
-**Additional tools:**
-
-- <img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" /> **Docker**: for containerizing the services.
-
-- <img align="left" alt="Postman" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" /> **Postman**: For backend Http requests test.
-
-## Diagrams
-
-#### Use case
-
-<img src="assets\UML_use_case_diag.jpg" alt="spring mvc layers" width="900" height="500">
-
-#### Global architechture
-
-<img src="assets\images\architecture.jpg" alt="spring mvc layers" width="900" height="500">
-
 ## Content
 
+- [Frameworks used](#frameworks-used)
+  - [Additional tools](#additional-tools)
+- [Use case diagram](#use-case-diagram)
+- [Global architechture](#global-architechture)
 - [0. Setting Up Microservices](#0-setting-up-microservices)
   - [1. Overview](#1-overview)
   - [2. Prequeries](#2-prequeries)
@@ -58,6 +37,29 @@ This project is a tourism blog application where each user can add a blog and ac
 - [8. Deploy microservices to local Kubernetes](#8-deploy-microservices-to-local-kubernetes)
 - [9. Deploy with Gitlab](#9-deploy-with-gitlab)
 - [10. Maps functionality](#10-maps-functionality)
+
+## Frameworks used
+
+- <span> Backend: Spring Boot 3.2.4 <img alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" /> , Maven <img alt="Maven" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" />, Java 17 <img alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" /></san>
+- <span> Frontend: Angular 16.1.2 <img alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" /></span>
+
+<span> **Server:** Apache web server <img alt="Apache" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" /></span>
+
+<span> **Database:** PostgreSQL <img alt="Apache" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /></span>
+
+### Additional tools
+
+- <img align="left" alt="Docker" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" /> **Docker**: for containerizing the services.
+
+- <img align="left" alt="Postman" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" /> **Postman**: For backend Http requests test.
+
+## Use case diagram
+
+<img src="assets\UML_use_case_diag.jpg" alt="spring mvc layers" width="900" height="500">
+
+## Global architechture
+
+<img src="assets\images\architecture.jpg" alt="spring mvc layers" width="900" height="500">
 
 ## 0. Setting Up Microservices
 
@@ -376,5 +378,9 @@ For dynamic content such as blog posts and user comments, we use the Google Clou
 When a user submits a blog post or comment, the content is sent to the Google Cloud Translator API, which returns the translated text.
 
 The translated content is then displayed on the website, providing a seamless multilingual experience for all users.
-### Note:to run the application, use Docker Compose in the backend folder, utilizing the init-db folder for initializing the databases.
+
+**Note:** To run the application, use Docker Compose in the backend folder, utilizing the init-db folder for initializing the databases.
+
+## Contributors
+
 

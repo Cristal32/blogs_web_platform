@@ -37,6 +37,7 @@ This project is a tourism blog application where each user can add a blog and ac
 - [8. Deploy microservices to local Kubernetes](#8-deploy-microservices-to-local-kubernetes)
 - [9. Deploy with Gitlab](#9-deploy-with-gitlab)
 - [10. Maps functionality](#10-maps-functionality)
+- [Contributors](#contributors)
 
 ## Frameworks used
 
@@ -382,5 +383,9 @@ The translated content is then displayed on the website, providing a seamless mu
 **Note:** To run the application, use Docker Compose in the backend folder, utilizing the init-db folder for initializing the databases.
 
 ## Contributors
+- [@lamAz19](https://github.com/lamAz19)
+- [@mariemebenz](https://github.com/mariemebenz)
+- [@Cristal32](https://github.com/Cristal32)
+- [@dodoLR](https://github.com/dodoLR)
 
 
